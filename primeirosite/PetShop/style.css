@@ -1,0 +1,102 @@
+body{
+  position: relative;
+}
+.bgblack{
+  background-color: black;
+}
+.container{
+  min-width: 360px;
+}
+.container a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #7a9670;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  background-color: black
+}
+.inicio{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+.menu{
+  padding: 15px 0;
+}
+.alista{
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 8px 80px 5px 80px;
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 3px;
+}
+.verde{
+  color: green;
+}
+.vermelho{
+  color: red;
+}
+.azul{
+  color: blue;
+}
+.amarelo{
+  color: yellow;
+}
+.branco{
+  color: white;
+}
+.verde:hover{
+  box-shadow: inset 0px -50px green;
+  border-bottom: solid green;
+  transition: 0.5s;
+}
+.vermelho:hover{
+  box-shadow: inset 0px -50px red;
+  border-bottom: solid red;
+  transition: 0.5s;
+}
+.azul:hover{
+  box-shadow: inset 0px -50px blue;
+  border-bottom: solid blue;
+  transition: 0.5s;
+}
+.amarelo:hover{
+  box-shadow: inset 0px -50px yellow;
+  border-bottom: solid yellow;
+  transition: 0.5s;
+}
+.branco:hover{
+  box-shadow: inset 0px -50px white;
+  border-bottom: solid white;
+  transition: 0.5s;
+}
+.content{
+  background-image: url(img/bg-pet.jpg);
+  min-height: 80%;
+}
+.img{
+  width: 200px;
+}
+.pescrito{
+  padding: 200px 50px;
+  margin: 0;
+  text-shadow: 0.3em 0.2em 0.2em #333;
+}
+.footer{
+  background: black;
+  height: 80px;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  line-height: 75px;
+}
