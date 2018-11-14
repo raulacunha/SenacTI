@@ -10,7 +10,7 @@ export class arma{
         this.projeteisNoPente = projeteis
     }
 
-    public atirar(n:number = 1): void{
+    public atirar(n:number = 0): void{
         if (this.projeteisNoPente == 0){
             console.log('Não há balas, por favor recarregue')
         }
@@ -28,4 +28,3 @@ export class arma{
         return this.projeteisNoPente
     }
 }
-

@@ -21,15 +21,6 @@ var metralhadora = /** @class */ (function (_super) {
         _this.tiroPorSegundo = tiro;
         return _this;
     }
-    metralhadora.prototype.atirar = function () {
-        if (this.projeteisNoPente <= 0) {
-            console.log('Não há balas, por favor recarregue');
-        }
-        else {
-            this.projeteisNoPente = this.projeteisNoPente - 3;
-            console.log('tratra');
-        }
-    };
     return metralhadora;
 }(arma_1.arma));
 exports.metralhadora = metralhadora;
