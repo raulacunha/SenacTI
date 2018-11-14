@@ -7,8 +7,7 @@ export class Zoo{
     //todo parametro e/ou atributo definido no inicio 
     //do meu método ou função só poderá ser 
     //acessado por ele mesmo
-    constructor(end: string, list: Array<Animal>){
-        this.endereco = end
+    constructor(list: Array<Animal>){
         this.listaDeAnimais = list
     }
 
@@ -16,6 +15,10 @@ export class Zoo{
     //public definirEndereco(end: string): void{
     //    this.endereco = end
     //}
+
+    public definirEndereco(end: string): void{
+        this.endereco = end
+    }
 
     public mostrarEndereco(): string{
         return this.endereco

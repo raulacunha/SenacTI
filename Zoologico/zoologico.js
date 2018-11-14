@@ -1,22 +1,25 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Zoo {
+exports.__esModule = true;
+var Zoo = /** @class */ (function () {
     //todo parametro e/ou atributo definido no inicio 
     //do meu método ou função só poderá ser 
     //acessado por ele mesmo
-    constructor(end, list) {
-        this.endereco = end;
+    function Zoo(list) {
         this.listaDeAnimais = list;
     }
     //tirar o this.endereco do constructor
     //public definirEndereco(end: string): void{
     //    this.endereco = end
     //}
-    mostrarEndereco() {
+    Zoo.prototype.definirEndereco = function (end) {
+        this.endereco = end;
+    };
+    Zoo.prototype.mostrarEndereco = function () {
         return this.endereco;
-    }
-    mostrarLista() {
+    };
+    Zoo.prototype.mostrarLista = function () {
         return this.listaDeAnimais;
-    }
-}
+    };
+    return Zoo;
+}());
 exports.Zoo = Zoo;
