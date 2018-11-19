@@ -1,15 +1,13 @@
 export class Animal{
     private quantidadeDeDentes: number
     private quantidadeDeOlhos: number
-    private nomeDoAnimal: string
     
     //constructor da minha classe
     //Para que animal seja criada quero que defina quantidade de dentes e olhos
 
-    constructor(qtdDentes: number, qtdDeOlhos: number, nomeAnimal: string){
+    constructor(qtdDentes: number, qtdDeOlhos: number){
         this.quantidadeDeDentes = qtdDentes
         this.quantidadeDeOlhos = qtdDeOlhos
-        this.nomeDoAnimal = nomeAnimal
     }
 
     //public definirOlhos(qtdOlhos: number): void{

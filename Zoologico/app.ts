@@ -6,7 +6,7 @@ import { Zoo } from "./zoologico";
 
 let conjunto: Array<Animal> = []
 
-let toto = new Animal(1,2,'led')
+let toto = new Animal(1,2)
 //toto.definirDentes(3)
 //toto.definirOlhos(2)
 //toto.definirNome('Led')
@@ -15,19 +15,19 @@ console.log(toto)
 //quando coloca o . voce pode acessar tudo o que 
 //tem publico na classe animal
 
-let gato = new Animal(1,2,'botas')
+let gato = new Animal(1,2)
 //gato.definirDentes(20)
 //gato.definirOlhos(2)
 //gato.definirNome('Botas')
 console.log(gato)
 
-let tartaruga = new Animal(1,2,'timoteo')
+let tartaruga = new Animal(1,2)
 //tartaruga.definirDentes(0)
 //tartaruga.definirOlhos(2)
 //tartaruga.definirNome('Timoteo')
 console.log(tartaruga)
 
-let furao = new Animal(1,2,'eustacio')
+let furao = new Animal(1,2)
 //furao.definirDentes(10)
 //furao.definirOlhos(2)
 //furao.definirNome('Eustacio')
