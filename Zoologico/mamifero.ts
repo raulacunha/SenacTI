@@ -5,6 +5,7 @@ export class mamifero extends vertebrados{
     private nomeDoAnimal: string
     private tipoDeAlimentacao: string
     private especieDoMamifero: string
+    private mamilosDoAnimal: number
 
     constructor(qtdOlhos: number, qtdDentes: number, qtdAntenas: number, qtdMembros: number, peso: number, nome: string, alimentacao: string, especie: string){
         super(qtdOlhos, qtdDentes, qtdAntenas, qtdMembros);
@@ -13,5 +14,8 @@ export class mamifero extends vertebrados{
         this.tipoDeAlimentacao = alimentacao
         this.especieDoMamifero = especie
     }
-
+    public definirQuantidadeDeMamilos(mamilos: number): void{
+        this.mamilosDoAnimal = mamilos
+    }
+    
 }

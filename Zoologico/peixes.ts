@@ -5,6 +5,8 @@ export class peixes extends vertebrados{
     private tipoDeAgua: string
     private comprimentoDoPeixe: number
     private especieDoPeixe: string
+    private alimentoDoPeixe: string
+    private nadadeirasDoPeixe: number
 
     constructor(qtdOlhos: number, qtdDentes: number, qtdAntenas: number, qtdMembros: number, peso: number, agua: string, comprimento: number, especie: string){
         super(qtdOlhos, qtdDentes, qtdAntenas, qtdMembros);
@@ -14,4 +16,10 @@ export class peixes extends vertebrados{
         this.especieDoPeixe = especie
     }
 
+    public definirAlimentacao(alimentacao: string): void{
+        this.alimentoDoPeixe = alimentacao
+    }
+    public definirQuantidadeDeNadadeiras(nadadeiras: number): void{
+        this.nadadeirasDoPeixe = nadadeiras
+    }
 }

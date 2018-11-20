@@ -6,12 +6,15 @@ export class repteis extends vertebrados{
     private tipoDeAgua: string
     private comprimentoDoReptil: number
 
-    constructor(qtdOlhos: number, qtdDentes: number, qtdAntenas: number, qtdMembros: number, peso: number, nome: string, agua: string, comprimento: number){
+    constructor(qtdOlhos: number, qtdDentes: number, qtdAntenas: number, qtdMembros: number, nome: string, agua: string){
         super(qtdOlhos, qtdDentes, qtdAntenas, qtdMembros);
-        this.pesoDoAnimal = peso
         this.nomeDoAnimal = nome
         this.tipoDeAgua = agua
+    }
+    public definirComprimentoDoReptil(comprimento: number): void{
         this.comprimentoDoReptil = comprimento
     }
-
+    public definirPesoDoReptil(peso: number): void{
+        this.pesoDoAnimal = peso
+    }
 }
