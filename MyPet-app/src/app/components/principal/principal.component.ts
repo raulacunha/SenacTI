@@ -17,9 +17,9 @@ export class PrincipalComponent {
             //caso nao exista eu defino um para ele
             this.imagem = '/assets/img/dory.jpg'
         }
-        else {
-        //caso sim, deixa em branco
-        this.imagem = ''
+        else{
+            //caso sim, deixa em branco
+            this.imagem = ''
         }
     }
     text1: string = 'Olá Mundo'
